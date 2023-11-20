@@ -14,7 +14,7 @@ pkg install python ; pkg install git ; apt update ; apt upgrade ; apt install py
 * Termux
 
 # Join Telegram Channel ⬇️:
-https://t.me/vhservicecambodia
+https://t.me/chhaikorngkhon
 
 # Admin ⬇️:
-https://t.me/raksmeysokhavenghong
+https://t.me/chhaikorngkhon
