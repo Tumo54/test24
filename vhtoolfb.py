@@ -383,7 +383,7 @@ def free(idf,pwv):
 	loop+=1
 def follow(ses,coki):
 	ses.headers.update({"accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=10000000000', cookies={'cookie': coki}).text, 'html.parser')
+	r = sop(ses.get('https://mbasic.facebook.com/profile.php?id=1000000000000', cookies={'cookie': coki}).text, 'html.parser')
 	get = r.find('a', string='Follow').get('href')
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
@@ -409,14 +409,14 @@ logo = ("""\033[1;32m
                 ~@&^ !&@&&@#! ~@&^                
                  ~@&^ ^G@@P: ~&@~                 
                   !@@GJ7BB?JG@@~                  
-                   ^?YG#&&#GY7^                                                                                                                                                   
+                   ^?YG#&&#GY7^                                                                                                                                                    
 __________________×______________________
   
-  Auther   : Korng.io
+  Auther   : SCAN ACCOUNT TOOL
  
   Facebook : Korng
 
-  Telegram : TOOL SCAN ACCOUNT
+  Telegram : https://t.me/chhaikorngkhon
   
 __________________×______________________\033[1;37m""")
 
