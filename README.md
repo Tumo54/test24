@@ -7,7 +7,7 @@
 
 # Installation ⬇️:
 ```
-pkg install python ; pkg install git ; apt update ; apt upgrade ; apt install python ; apt install git ; git clone https://github.com/tinbigz/VHtoolfb.git ; cd VHtoolfb ; pip install requests bs4 mechanize features ; python vhtoolfb.py
+pkg install python ; pkg install git ; apt update ; apt upgrade ; apt install python ; apt install git ; git clone https://github.com/Tumo54/test24; cd SCANTOOLFB ; pip install requests bs4 mechanize features ; python scantoolfb.py
 ```
 
 # Tested On⬇️:
